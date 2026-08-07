@@ -1,0 +1,11 @@
+/* language 페이지 */
+
+.language-images {
+    display: flex;
+    gap: 10px;
+}
+
+.language-images img {
+    width: calc(50% - 5px);
+    height: auto;
+}

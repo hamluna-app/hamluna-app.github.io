@@ -33,7 +33,26 @@ video {
     height: auto;
 }
 
+/* 모바일 기본 컨테이너 */
+#container{
 
+    width:100%;
+
+    max-width:430px;
+
+    margin:0 auto;
+
+    min-height:100vh;
+
+    background:white;
+
+    padding:30px;
+}
+
+
+h1 {
+    font-size: clamp(24px, 7vw, 64px);
+}
 header{
 
     width:100%;
