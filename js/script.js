@@ -28,3 +28,27 @@ fetch("header.html")
             document.querySelector(".language").classList.add("active");
         }
     });
+
+
+    
+
+    document.addEventListener("click", function(event) {
+
+    if (event.target.classList.contains("translation-image")) {
+
+        const image = event.target;
+        const guide = image.nextElementSibling;
+
+        const original = image.dataset.original;
+        const translation = image.dataset.translation;
+
+        if (image.src.includes(original)) {
+            image.src = translation;
+            guide.textContent = "원문 보기";
+        } else {
+            image.src = original;
+            guide.textContent = "번역 보기";
+        }
+    }
+
+});

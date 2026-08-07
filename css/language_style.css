@@ -1,11 +1,18 @@
 /* language 페이지 */
 
-.language-images {
-    display: flex;
-    gap: 10px;
+.translation-item {
+    width: 100%;
+    text-align: center;
 }
 
-.language-images img {
-    width: calc(50% - 5px);
+.translation-image {
+    width: 100%;
     height: auto;
+    cursor: pointer;
+}
+
+.translation-guide {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #91adad;
 }
