@@ -9,6 +9,27 @@ html {
     font-size: 16px;
 }
 
+/*TOP버튼*/
+#top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #91adad;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    z-index: 9999;
+}
+
 body{
 
     margin:0;
@@ -131,3 +152,4 @@ header{
         padding: 0 60px;
     }
 }*/
+

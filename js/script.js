@@ -52,3 +52,22 @@ fetch("header.html")
     }
 
 });
+
+/*const topButton = document.getElementById("top-button");
+topButton.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});*/
+
+document.addEventListener("click", function(event) {
+
+    if (event.target.id === "top-button") {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+});
