@@ -40,3 +40,24 @@
 
     height: auto; /* 세로 비율 유지 */
 }
+
+/*TOP버튼*/
+#top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #91adad;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    z-index: 9999;
+}
