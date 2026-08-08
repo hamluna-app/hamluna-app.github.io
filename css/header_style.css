@@ -37,9 +37,11 @@ video {
 header{
 
     width:100%;
-    max-width:430px;
+    max-width: none;
+    /*max-width:430px;
+    margin:0 auto;*/
     height: 50px;
-    margin:0 auto;
+   
     
 
     display:flex;
@@ -52,11 +54,11 @@ header{
 #menu {
 
     width:100%;
-
-    max-width:430px;
+    max-width: none;
+    
     height: 30px;
 
-    margin:0 auto;
+    
 
     display:flex;
 
@@ -116,16 +118,16 @@ header{
 
 
 
-/* 태블릿 이상 */
+/* 태블릿 이상 
 @media (min-width: 768px) {
     .container {
         padding: 0 40px;
     }
 }
 
-/* PC 이상 */
+/* PC 이상 
 @media (min-width: 1024px) {
     .container {
         padding: 0 60px;
     }
-}
+}*/

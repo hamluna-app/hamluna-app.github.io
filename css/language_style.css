@@ -16,3 +16,27 @@
     font-size: 14px;
     color: #91adad;
 }
+
+/*영상*/
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+    
+.image-box video {
+    display: block;        /* 인라인 → 블록 요소로 변경 */
+    margin: 0 auto;        /* 좌우 여백 자동 → 가운데 정렬 */
+   
+
+    height: auto; /* 세로 비율 유지 */
+}

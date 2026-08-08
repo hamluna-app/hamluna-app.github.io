@@ -37,9 +37,8 @@ video {
 #container{
 
     width:100%;
-
+    
     max-width:430px;
-
     margin:0 auto;
 
     min-height:100vh;
@@ -132,7 +131,36 @@ header{
     height:auto;
   
 }
+.main-video {
+    position: relative;
+    width: calc(100% + 60px);
+    margin-left: -30px;
 
+    
+
+    overflow: hidden;
+}
+
+.main-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-text {
+    position: absolute;
+
+    top: 20%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-size: 18px;
+}
 
 
 /* 태블릿 이상 */
