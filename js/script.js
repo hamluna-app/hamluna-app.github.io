@@ -26,7 +26,11 @@ fetch("header.html")
         // language 페이지라면 language 메뉴 활성화
         if (currentPage.includes("language.html")) {
             document.querySelector(".language").classList.add("active");
-        }
+        } else if (currentPage.includes("works.html")) {
+    document.querySelector(".works").classList.add("active");
+} else if (currentPage.includes("about.html")) {
+    document.querySelector(".about").classList.add("active");
+}
     });
 
 
