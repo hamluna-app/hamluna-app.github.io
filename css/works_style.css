@@ -42,14 +42,15 @@
 }
 
 
-.youtube-video {
+.youtube-shorts {
     width: 100%;
-    max-width: 800px;
-    aspect-ratio: 16 / 9;
+    max-width: 340px;
+    aspect-ratio: 9 / 16;
     margin: 20px auto;
 }
 
-.youtube-video iframe {
+.youtube-shorts iframe {
+    display: block;
     width: 100%;
     height: 100%;
     border: none;
